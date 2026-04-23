@@ -13,7 +13,7 @@ RUN npm install
 
 # Install frontend dependencies & build React app
 WORKDIR /app/client
-RUN npm install
+RUN npm install --legacy-peer-deps
 RUN npm run build
 
 # Go back to server
