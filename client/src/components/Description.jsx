@@ -11,7 +11,7 @@ const Description = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}   
         >
-            <h1 className="text-3xl sm:text-4xl font-semibold mb-2">Create AI Images</h1>
+            <h1 className="text-3xl sm:text-4xl font-semibold mb-2">Create AI Image</h1>
             <p className="text-gray-500 mb-8">Turn your imagination into visuals</p>
             <div className="flex flex-col gap-5 md:gap-14 md:flex-row items-center">
                 <img src={assets.sample_img_1} className="w-80 xl:w-96 rounded-lg" alt="" />
